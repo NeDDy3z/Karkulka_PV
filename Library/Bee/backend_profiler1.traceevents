@@ -1,0 +1,516 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669480927647588, "dur":1746, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480927649342, "dur":49, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669480927649402, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669480927649419, "dur":339, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669480927649777, "dur":500, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480927650277, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560072, "dur":156, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560228, "dur":77, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560305, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560310, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560318, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560320, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560327, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560329, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560334, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560336, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560342, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560344, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560350, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560352, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560358, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560360, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560366, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560367, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560373, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560375, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560381, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560383, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560389, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560390, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560397, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560409, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928560429, "dur":2124, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669480927650005, "dur":279, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927650286, "dur":4165, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927654467, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669480927654469, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927654562, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669480927654567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927655192, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669480927656941, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1669480927657015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927657710, "dur":795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1669480927658542, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669480927658631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927658675, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1669480927659909, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669480927660025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927660031, "dur":48633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1669480927708729, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669480927708836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927708840, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":1, "ts":1669480927710970, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927711020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927711061, "dur":21168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927732265, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927732308, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927732337, "dur":25747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927758121, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927758169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927758176, "dur":23162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927781384, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927781427, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927781436, "dur":48270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927829743, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927829787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927829796, "dur":21113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927850954, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927851003, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927851013, "dur":47913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927898967, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480927899008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480927899016, "dur":115766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928014824, "dur":921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928015748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928015758, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928016703, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928017311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928017318, "dur":955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928018311, "dur":25480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928043798, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928043811, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928045052, "dur":1676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928046734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928046744, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928047757, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UDP.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928047799, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928047806, "dur":119809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UDP.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928167653, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928167696, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928167704, "dur":109962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928277712, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928277761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669480928277771, "dur":282235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669480928560037, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1669480928560039, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927650008, "dur":280, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927650288, "dur":4170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927654467, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669480927654618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927659743, "dur":1044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669480927660826, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927660922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927661133, "dur":48231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927709409, "dur":613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV.exe" }}
+,{ "pid":12345, "tid":2, "ts":1669480927710026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927710031, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV.exe" }}
+,{ "pid":12345, "tid":2, "ts":1669480927711395, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927711436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927711440, "dur":65999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927777478, "dur":145673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927923158, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927923167, "dur":6524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927929747, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927929791, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927929800, "dur":27591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927957426, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480927957465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480927957472, "dur":52098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480928009605, "dur":42781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480928052392, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480928052425, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480928053626, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480928053672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480928053680, "dur":293337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669480928347064, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1669480928347109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480928347119, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1669480928348043, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669480928348079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480928348085, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669480928349196, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669480928349233, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669480928349240, "dur":6472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669480928355753, "dur":204317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927650086, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927650302, "dur":4173, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927654475, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669480927654644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927714888, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669480927716046, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927716097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927716103, "dur":36098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927752249, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927752299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927752308, "dur":23946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927776304, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927776345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927776354, "dur":141054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927917458, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927917501, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927917509, "dur":25639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927943187, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480927943226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480927943235, "dur":65930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928009218, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928009997, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480928010005, "dur":4536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928014579, "dur":2169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928016752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480928016760, "dur":11375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928028176, "dur":5544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928033726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480928033737, "dur":2585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928036365, "dur":40785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928077158, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480928077170, "dur":14229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928091451, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928091500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480928091506, "dur":209631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928301171, "dur":135570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928436746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669480928436756, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669480928437888, "dur":122199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927650044, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927650294, "dur":4171, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927654473, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669480927654624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927709343, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669480927710409, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927710456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927710668, "dur":110171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927820874, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927820913, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927820917, "dur":60155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927881126, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927881173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927881204, "dur":43374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927924618, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927924660, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480927924667, "dur":39900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480927964603, "dur":44194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928008804, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480928008815, "dur":5874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928014732, "dur":90985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928105724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480928105735, "dur":18643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928124434, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928124490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480928124500, "dur":46413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928170957, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928171000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669480928171010, "dur":197158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669480928368204, "dur":191868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927650079, "dur":219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927650298, "dur":4158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927654468, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1669480927654655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927730067, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1669480927731015, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927731061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927731067, "dur":123692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927854800, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927854871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927854878, "dur":22664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927877580, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927877620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927877628, "dur":38066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927915740, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927915787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927915797, "dur":20780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927936616, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927936658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927936667, "dur":27754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927964463, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927964503, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927964512, "dur":34663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927999211, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480927999982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480927999991, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928001270, "dur":66638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928067937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480928067947, "dur":2888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928070880, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928070928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480928070937, "dur":181575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928252559, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928252601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480928252610, "dur":47926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928300582, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928300622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669480928300631, "dur":232317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669480928532977, "dur":27097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927650110, "dur":196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927650307, "dur":4153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927654468, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669480927654624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927709059, "dur":1002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669480927710110, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1669480927710250, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927710447, "dur":10898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1669480927721398, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927721455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927721466, "dur":36843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927758351, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927758393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927758399, "dur":45640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927804083, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927804129, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927804138, "dur":42753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927846936, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927846978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927846986, "dur":22520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927869549, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927869593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927869603, "dur":56741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927926387, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927926435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927926443, "dur":26779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927953264, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927953303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480927953311, "dur":44049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480927997409, "dur":305079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480928302492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928302501, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669480928303787, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1669480928303911, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928305790, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":6, "ts":1669480928306951, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669480928306991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928307031, "dur":1046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1669480928308111, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669480928308147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928308152, "dur":8024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669480928316218, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669480928316256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928316264, "dur":7163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669480928323466, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1669480928323599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928323606, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":6, "ts":1669480928325420, "dur":904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1669480928326327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928326335, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1669480928327219, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669480928327260, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928327266, "dur":1822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1669480928329123, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669480928329160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928329167, "dur":26540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1669480928355751, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1669480928355885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669480928355893, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1669480928357049, "dur":203020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927650137, "dur":173, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927650310, "dur":4166, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927654477, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669480927654607, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927658920, "dur":831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669480927659829, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669480927659931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927659937, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1669480927661024, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927661116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927661182, "dur":52076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927713307, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927713362, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927713373, "dur":69386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927782800, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927782842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927782849, "dur":37493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927820383, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927820430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927820439, "dur":32299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927852784, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927852839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927852846, "dur":32537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927885425, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927885469, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927885475, "dur":30741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927916255, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927916295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480927916302, "dur":70751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480927987096, "dur":78846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928065947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480928065956, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928067178, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928067226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480928067233, "dur":131012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928198299, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928198357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480928198390, "dur":42608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928241039, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928241080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669480928241089, "dur":121520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669480928362655, "dur":197413, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927650163, "dur":150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927650313, "dur":4150, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927654468, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669480927654628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927714042, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669480927715827, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927715876, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927715880, "dur":82626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927798549, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927798590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927798599, "dur":105064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927903703, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927903744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927903753, "dur":26914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927930704, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927930775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480927930782, "dur":54237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480927985078, "dur":106227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480928091311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480928091322, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480928092691, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480928092734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480928092740, "dur":153377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480928246155, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480928246195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669480928246203, "dur":121933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669480928368178, "dur":191912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927650193, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927650317, "dur":4145, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927654468, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1669480927654648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927729514, "dur":1477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1669480927731030, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927731083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927731088, "dur":61176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927792309, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927792351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927792360, "dur":64068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927856472, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927856518, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927856525, "dur":50584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927907150, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927907195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927907205, "dur":23099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927930346, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480927930392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480927930400, "dur":133998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480928064498, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480928064562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480928064571, "dur":133534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480928198162, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480928198209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669480928198217, "dur":182724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669480928380979, "dur":179109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927650213, "dur":107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927650320, "dur":4154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927654474, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669480927654592, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927656095, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669480927656984, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1669480927657052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927657576, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1669480927658519, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669480927658608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927658661, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669480927659840, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1669480927659941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927659946, "dur":1256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1669480927661245, "dur":46969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927708221, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927708233, "dur":17541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927725820, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927725871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927725879, "dur":21807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927747731, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927747775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927747784, "dur":20915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927768739, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927768785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927768794, "dur":51584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927820413, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927820450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927820455, "dur":64445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927884948, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927884994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927885003, "dur":25915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927910960, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927911001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927911010, "dur":35840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927946896, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927946936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927946944, "dur":39001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927985976, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480927986017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480927986026, "dur":64967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928051042, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928051086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480928051094, "dur":118789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928169921, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928169961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480928169969, "dur":53398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928223406, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928223451, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669480928223460, "dur":134857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669480928358349, "dur":201724, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927650229, "dur":95, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927650324, "dur":4143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927654467, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1669480927654644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927714485, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1669480927715752, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927715808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927715815, "dur":36657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927752508, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927752555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927752561, "dur":67796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927820394, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927820439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927820445, "dur":54355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927874843, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927874889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927874899, "dur":72014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927946956, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927947000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480927947006, "dur":38889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480927985931, "dur":112109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480928098045, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480928098055, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480928099742, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480928099784, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480928099791, "dur":98289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480928198118, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480928198160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669480928198168, "dur":205304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669480928403504, "dur":156574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927650250, "dur":77, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927650327, "dur":4132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927654468, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1669480927654646, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927729100, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1669480927732836, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927732890, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927732895, "dur":25181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927758120, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927758168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927758176, "dur":71605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927829817, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927829855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927829860, "dur":21054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927850961, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927851008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927851015, "dur":20603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927871655, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927871697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927871706, "dur":21312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927893059, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927893102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927893113, "dur":37960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927931109, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927931155, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927931161, "dur":24857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927956080, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480927956133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480927956141, "dur":279679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480928235859, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480928235901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669480928235909, "dur":132993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/neddy/Desktop/KarkulkaBuild/Karkulka_PV_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669480928368947, "dur":191138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669480928563712, "dur":1260, "ph":"X", "name": "ProfilerWriteOutput" }
+,
